@@ -25,7 +25,6 @@ public class MigrationService {
             log.error("Migrator {} failed.", migrator.getClass().getSimpleName(), ex);
           } finally {
             migrator.finish();
-            System.gc();
           }
         });
   }
