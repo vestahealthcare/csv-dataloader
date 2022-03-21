@@ -7,7 +7,7 @@ Once you've tested your backfill code locally, it can be run in staging.
     https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#InstanceDetails:instanceId=i-0723a0b1017da5250
 4) Copy the jar to the EC2 instance.
 
-   `scp target/csv-dataloader.jar ec2-user@10.0.44.212:/home/ec2-user`
+   `scp target/csv-dataloader.jar ec2-user@10.0.44.212:/home/ec2-user/csv-dataloader/
 5) SSH into the EC2 instance
 
     `ssh ec2-user@10.0.44.212`
@@ -27,7 +27,7 @@ This can only be run by engineers with PHI access. Coordinate with your team lea
    https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#InstanceDetails:instanceId=i-045f69767741d649e
 4) Copy the jar to the EC2 instance.
 
-   `scp target/csv-dataloader.jar ec2-user@10.0.54.224:/home/ec2-user`
+   `scp target/csv-dataloader.jar ec2-user@10.0.54.224:/home/ec2-user/csv-dataloader/
 5) SSH into the EC2 instance
 
    `ssh ec2-user@10.0.54.224`
